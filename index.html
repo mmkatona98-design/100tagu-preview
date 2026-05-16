@@ -1,2 +1,66 @@
-with open('/home/user/output/100tagu-v5-final.html', 'r', encoding='utf-8') as f:
-    content = f.read()
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>100 Tagú Cigányzenekar – Preview</title>
+  <meta name="description" content="A világ legnagyobb cigányzenekara. Interaktív weboldal preview – v5 teljes verzió.">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #04030a;
+      color: #e8e0cc;
+      font-family: 'Inter', sans-serif;
+      display: flex; align-items: center; justify-content: center;
+      min-height: 100vh; text-align: center; padding: 40px 24px;
+    }
+    .wrap { max-width: 560px; }
+    .logo { font-size: 3rem; margin-bottom: 24px; }
+    h1 { font-size: 2rem; font-weight: 300; color: #c9a84c; margin-bottom: 10px; letter-spacing: .04em; }
+    h1 strong { font-weight: 700; }
+    p { color: #888; font-size: .95rem; line-height: 1.75; margin-bottom: 32px; }
+    .badge {
+      display: inline-block; padding: 6px 18px;
+      border: 1px solid rgba(201,168,76,.3); color: #c9a84c;
+      font-size: .65rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .2em; border-radius: 2px; margin-bottom: 28px;
+    }
+    .btn {
+      display: inline-block; padding: 14px 36px;
+      background: #c9a84c; color: #04030a;
+      font-size: .78rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .16em; text-decoration: none; border-radius: 1px;
+      margin: 6px;
+    }
+    .btn-out {
+      display: inline-block; padding: 14px 36px;
+      border: 1px solid rgba(201,168,76,.4); color: #c9a84c;
+      font-size: .78rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .16em; text-decoration: none; border-radius: 1px;
+      margin: 6px;
+    }
+    .note { margin-top: 36px; font-size: .75rem; color: #555; }
+    .features { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 28px 0; }
+    .feat { padding: 8px 14px; border: 1px solid #1a1825; background: #0c0b14; font-size: .68rem; color: #888; border-radius: 2px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="logo">🎻</div>
+    <div class="badge">Preview · v5 · 2026</div>
+    <h1>100 Tagú <strong>Cigányzenekar</strong></h1>
+    <p>Az interaktív weboldal teljes v5 verziója hamarosan elérhető ezen a linken.<br>A fájl feltöltése folyamatban – GitHub Pages aktiválása szükséges.</p>
+    <div class="features">
+      <span class="feat">🌍 HU / EN / DE</span>
+      <span class="feat">🤖 AI Timeline</span>
+      <span class="feat">🎵 Hangdesign</span>
+      <span class="feat">🖼 Galéria</span>
+      <span class="feat">🎟 Jegyrendszer</span>
+      <span class="feat">⭐ 3D Zenekar</span>
+    </div>
+    <a class="btn" href="https://www.100tagu.hu" target="_blank">Hivatalos oldal →</a>
+    <a class="btn-out" href="https://github.com/mmkatona98-design/100tagu-preview" target="_blank">GitHub repo ↗</a>
+    <p class="note">GitHub Pages: Settings → Pages → Source: main → / (root)</p>
+  </div>
+</body>
+</html>
